@@ -35,14 +35,29 @@
       notion to create a labeled dataset for an algorithm to learn from.
 
  9. What is an online learning system?
+    - An online learning system learns from new data on-the-fly. As a result, the system is trained incrementally either by using one example at 
+      a time or using a mini-batch approach. This keeps each learning step cheap and memory efficient.
 
  10. What is out-of-core learning?
+     - Out-of-core learning is used when a dataset is too large to fit into a computer's memory. The algorithm loads part of the data, runs a 
+       training step, then repeats the process until it has run on all the data.
 
  11. What type of algorithm relies on a similarity measure to make predictions?
+     - Instance-based learning algorithms use a measure of similarity to generalize to new cases. In an instance-based learning system, the 
+       algorithm learns the examples by heart, then uses the similarity measure to generalize.
 
  12. What is the difference between a model parameter and a model hyperparameter?
+     - A hyperparameter is a parameter of the learning algorithm, not the model. For example, in a simple linear regression problem our model 
+      is parameterized by theta which is a vector of weights. In order to find the best values for theta we have a cost function which is run 
+       repeatedly by the gradient descent algorithm. Gradient descent has a hyperparameter called alpha which is the learning rate of the algorithm.
+       Hyperparameter is a parameter for the learning algorithm, not of a model.
 
  13. What do model-based algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?
+     - The goal for a model-based algorithm is to be able to generalize to new examples. To do this, model based algorithms search for optimal values 
+        for the model's parameters, often called theta. This searching, or "learning", is what machine learning is all about. Model-based system learn 
+        by minimizing a cost function that measures how bad the system is at making predicitons on new data, plus a penalty for model complexity if 
+        the model is regularized. To make a prediction, a new instance's features are fed into a hypothesis function which uses the minimized theta 
+        found by repeatedly running the cost function. 
 
  14. Can you name four of the main challenges in Machine Learning?
 
