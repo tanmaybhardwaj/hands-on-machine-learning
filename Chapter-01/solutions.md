@@ -5,14 +5,19 @@
     - Machine learning is the science of programming computers so they can learn from data to solve a specific problem.
 
  2. Can you name four types of applications where it shines?
-    - Machine learning is great for problems whose solution requires a great deal of work or a long list of rules, complex problems that are hard to get a solution of using a traditional method, 
-      fluctuating environments and getting insights about complex problems and large data. Some examples are spam detection in email, cancer diagnosis, fraudulent credit card transactions, and automatically driving vehicles.
+    - Machine learning is great for problems whose solution requires a great deal of work or a long list of rules, complex problems that are
+      hard to get a solution of using a traditional method, fluctuating environments and getting insights about complex problems and large data. 
+      Some examples are spam detection in email, cancer diagnosis, fraudulent credit card transactions, and automatically driving vehicles.
 
  3. What is a labeled training set?
+    - A labeled training set is a collection of data where one of the features of the data indicates the class the training example belongs to.
+      A labeled training set is used in supervised learning algorithms.
 
  4. What are the two most common supervised tasks?
+    - Two most common supervised tasks are classification and regression. In a regression problem we our prediciton is a scalar value. When we're trying to solve a classification problem, our output is either 1 or 0.
 
  5. Can you name four common unsupervised tasks?
+    - Four common unsupervised tasks inclused clustering, visualization, dimensionality reduction , and association rule learning.
 
  6. What type of algorithm would you use to allow a robot to walk in various unknown terrains?
 
