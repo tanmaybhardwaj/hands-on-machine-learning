@@ -97,7 +97,11 @@
        If the training error is low, but the generalization error is high, it means we're overfitting our model.
 
  17. What is the purpose of a validation set?
+     - Validation set is a set used to compare between different training models.
 
  18. What is the train-dev set, when do you need it, and how do you use it?
+     - The model will not be generalizable to new examples.
 
  19. What can go wrong if you tune hyperparameters using the test set?
+     - Cross-validation is a tool to compare models without needing a separate validation set. It is preferred over validation set because we can
+       save from breaking of part of the training set to create a validation set, as having more data is valuable regardless.
